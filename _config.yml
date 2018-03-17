@@ -1,4 +1,5 @@
 title: Vincent
+brief-intro: Android and Python Coder
 description: 
 google_analytics: 
 show_downloads: false
@@ -6,3 +7,8 @@ show_downloads: false
 
 gems:
   - jekyll-mentions
+
+
+description_footer: 来自徐代龙的个人专栏！
+
+paginate: 6
