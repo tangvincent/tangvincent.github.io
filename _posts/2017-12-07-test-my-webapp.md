@@ -26,4 +26,4 @@ useradd
 
 ## 删除用户
 
-userdelete
+userdelete 112
