@@ -20,7 +20,7 @@ cat /etc/passwd|grep -v nologin|grep -v halt|grep -v shutdown|awk -F":" '{ print
 
 ## 创建用户：
 
-
+useradd
 
 
 
