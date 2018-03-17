@@ -1,22 +1,28 @@
 ---
 layout: post
-title:  "这是徐代龙进行的第二篇文章"
-categories: SnakeSon
-tags:  hexo JavaScript
-author: SnakeSon
+title:  "Linux 查询、创建和删除用户"
+categories: Linux
+tags:  linux
+author: Vincent
 ---
 
-* content
-{:toc}
+## 查询用户
+1. [参考](https://www.cnblogs.com/xiohao/p/5877256.html)
+2. 但是，你会发现，在使用上面的 cat 命令所打印出来的东西太杂乱了，于是网上找到下面的这个命令：
+```js
+#对于 cat /etc/passwd 的替换
+cat /etc/passwd|grep -v nologin|grep -v halt|grep -v shutdown|awk -F":" '{ print $1"|"$3"|"$4 }'|more
+```
 
-## 目的：
+
+## 创建用户：
 
 写这篇文章的目的主要是为了测试在本地进行md文件的编写是否能使用hexo进行html生成，然后上传到github上，通过访问https://day21.top 这个网站查看能否看到最新的文章
 
 
 
 
-## 操作步骤：
+## 删除用户
 
 ```js
 
