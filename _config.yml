@@ -7,7 +7,7 @@
 
 # Site settings
 title: Vincent's blog
-brief-intro: I'm a Coder
+brief-intro: 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://tangvincent.github.io" # the base hostname & protocol for your site
 
@@ -23,8 +23,8 @@ kramdown:
 # port: 1234
 
 # url
-category_dir: category/
-tag_dir: tag/
+#category_dir: category/
+#tag_dir: tag/
 
 # excerpt
 excerpt_separator: "\n\n\n\n"
