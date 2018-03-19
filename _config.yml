@@ -10,6 +10,7 @@ title: Vincent's blog
 brief-intro: 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://tangvincent.github.io" # the base hostname & protocol for your site
+imgurl: "https://tangvincent.github.io" # the base hostname & protocol for your site
 
 
 # Build settings

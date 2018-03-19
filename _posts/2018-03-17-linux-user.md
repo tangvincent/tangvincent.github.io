@@ -11,7 +11,7 @@ author: Vincent
 
 ## 查询用户
 1. [参考](https://www.cnblogs.com/xiohao/p/5877256.html)
-![](/img/linux/user-search.jpg)
+![]({{ site.imgurl }}/img/linux/user-search.jpg)
 2. 但是，你会发现，在使用上面的 cat 命令所打印出来的东西太杂乱了，于是网上找到下面的这个命令：
 ```md
 #对于 cat /etc/passwd 的替换
