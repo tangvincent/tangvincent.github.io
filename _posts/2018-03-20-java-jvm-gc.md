@@ -2,7 +2,7 @@
 layout: post
 title:  "JVM内存管理、JVM垃圾回收机制、新生代、老年代以及永久代"
 categories: Java
-tags:  java,jvm
+tags:  java jvm
 author: Vincent
 ---
 
