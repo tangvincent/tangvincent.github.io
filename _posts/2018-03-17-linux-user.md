@@ -9,9 +9,10 @@ author: Vincent
 * content
 {:toc}
 
+[linux指令大全](http://man.linuxde.net/)
+
 ## 查询用户
 1. [参考](https://www.cnblogs.com/xiohao/p/5877256.html)
-2. [linux指令大全](http://man.linuxde.net/)
 ![]({{ site.imgurl }}/img/linux/user-search.jpg)
 2. 但是，你会发现，在使用上面的 cat 命令所打印出来的东西太杂乱了，于是网上找到下面的这个命令：
 ```md
@@ -53,6 +54,7 @@ useradd(选项)(参数)
 
 
 ## 删除用户
+  
 [参考](http://man.linuxde.net/userdel)
 userdel(选项)(参数)
 >-f：强制删除用户，即使用户当前已登录；  
