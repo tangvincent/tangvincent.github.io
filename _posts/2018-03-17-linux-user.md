@@ -35,9 +35,8 @@ groupadd -g 344 group1
 
 
 ## 创建用户
-[参考](http://man.linuxde.net/useradd)
-
-useradd(选项)(参数)
+[参考](http://man.linuxde.net/useradd)  
+useradd(选项)(参数)  
 >-c<备注>：加上备注文字。备注文字会保存在passwd的备注栏位中；  
 -d<登入目录>：指定用户登入时的启始目录；  
 -D：变更预设值；  
@@ -47,15 +46,15 @@ useradd(选项)(参数)
 -G<群组>：指定用户所属的附加群组；  
 -m：自动建立用户的登入目录；  
 -M：不要自动建立用户的登入目录；  
--n：取消建立以用户名称为名的群组；  
+-n：取消建立以用户名称为名的群组；    
 -r：建立系统帐号；  
--s<shell>：指定用户登入后所使用的shell；  
+-s<shell>：指定用户登入后所使用的shell；    
 -u<uid>：指定用户id。  
 
 
 ## 删除用户
   
-[参考](http://man.linuxde.net/userdel)
+[参考](http://man.linuxde.net/userdel)  
 userdel(选项)(参数)
 >-f：强制删除用户，即使用户当前已登录；  
 -r：删除用户的同时，删除与用户相关的所有文件。
