@@ -2,7 +2,7 @@
 layout: post
 title:  "linux 搭建pdns"
 categories: Linux
-tags:  devops
+tags:  devops pdns
 author: Vincent
 ---
 
