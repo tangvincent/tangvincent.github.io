@@ -1,4 +1,16 @@
-参考资料 http://xip.io/
+---
+layout: post
+title:  "linux 搭建pdns"
+categories: Linux
+tags:  devops
+author: Vincent
+---
+
+* content
+{:toc}
+
+
+参考资料 [http://xip.io/](http://xip.io/)
 
 ## 打开防火墙
 ```
