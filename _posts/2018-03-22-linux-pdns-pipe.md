@@ -14,8 +14,11 @@ author: Vincent
 
 ## 打开防火墙
 ```
--A INPUT -m state --state NEW -m tcp -p tcp --dport 53 -j ACCEPT
--A INPUT -m state --state NEW -m udp -p udp --dport 53 -j ACCEPT
+iptables -A INPUT -m state --state NEW -m tcp -p tcp --dport 53 -j ACCEPT
+iptables -A INPUT -m state --state NEW -m udp -p udp --dport 53 -j ACCEPT
+/etc/init.d/iptables save
+
+cat /etc/sysconfig/iptables
 ```
 
 ## 安装epel
