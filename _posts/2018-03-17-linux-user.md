@@ -51,17 +51,23 @@ useradd(选项)(参数)
 >-r：建立系统帐号;  
 >-s<shell>：指定用户登入后所使用的shell;  
 >-u<uid>：指定用户id。  
+```md
+useradd -g group1 user1
+```
 
 
 ## 删除用户
   
 [参考](http://man.linuxde.net/userdel)  
 userdel(选项)(参数)
->-f：强制删除用户，即使用户当前已登录；  
+>-f：强制删除用户，即使用户当前已登录；删除后不会退出登录，需要用pkill强制退出  
 -r：删除用户的同时，删除与用户相关的所有文件。
 
 请不要轻易用-r选项；他会删除用户的同时删除用户所有的文件和目录，切记如果用户目录下有重要的文件，在删除前请备份。
 
+```md
+userdel user1
+```
 
 ## 注销用户
 
@@ -76,5 +82,9 @@ skill -KILL -u username
 pkill -kill -u username  
 能注销所有用 username 登陆的工作台。  
 用这个方法注销 root 可能会出现问题。  
+
+```md
+pkill -kill -u user1
+```
 
 [pkill](http://man.linuxde.net/pkill)
